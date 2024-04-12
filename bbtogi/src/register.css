@@ -1,0 +1,87 @@
+/* Set up the overall background and layout for the page */
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/src/img/BG1.JPG');
+    background-size: cover; /* Adjust the color to match the image background */
+    font-family: 'Arial', sans-serif; /* Use a common font */
+  }
+  
+  /* Style the container for the registration form */
+  .register-container {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px; /* Adjust the width as needed */
+    text-align: center;
+  }
+  
+  /* Style the form elements */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Space between form items */
+  }
+  
+  /* Style the input fields */
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    margin-bottom: 0.5rem; /* Space below inputs */
+  }
+  
+  /* Modify focus styles for inputs */
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #3079ed;
+    outline: none;
+  }
+  
+  /* Style the labels to match the design */
+  label {
+    text-align: left;
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-size: 0.9rem;
+  }
+  
+  /* Style the Register button */
+  button {
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #3079ed;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #265fad;
+  }
+  
+  /* Additional text and links */
+  p {
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  p a {
+    color: #3079ed;
+    text-decoration: none;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Add any additional global styles as needed */
+  
